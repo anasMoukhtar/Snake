@@ -68,7 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
             score++;
             scoreElement.textContent = score;
             createFood();
-            snakebody.appendChild(snakehead.cloneNode(true));
         }
     };
     // move snake
